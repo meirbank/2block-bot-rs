@@ -1,0 +1,18 @@
+[package]
+name = "bot2blocks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+ethers = "0.6.2"
+ethers-providers = "0.6.2"
+ethers-flashbots = "0.8.2"
+eyre = "0.6"
+serde_json = "1.0.82"
+tokio = { version = "1.18", features = ["macros", "rt-multi-thread"] }
+url = { version = "2.2.2", default-features = false }
+num = "0.4.0"
+bytes = "1.1.0"
